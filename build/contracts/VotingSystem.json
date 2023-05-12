@@ -1,0 +1,214 @@
+{
+  "contractName": "VotingSystem",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "Vote",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x6bf52ffa"
+    }
+  ],
+  "bytecode": "0x608060405260008055348015601357600080fd5b506099806100226000396000f3fe608060405260043610603e5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636bf52ffa81146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a7230582062afd3b574dcdc39635d881abfd0cf44d04b1a12d664a2736f3ff7b436cf29930029",
+  "deployedBytecode": "0x608060405260043610603e5763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416636bf52ffa81146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a7230582062afd3b574dcdc39635d881abfd0cf44d04b1a12d664a2736f3ff7b436cf29930029",
+  "sourceMap": "64:48:1:-;;;108:1;91:18;;64:48;8:9:-1;5:2;;;30:1;27;20:12;5:2;64:48:1;;;;;;;",
+  "deployedSourceMap": "64:48:1:-;;;;;;;;;;;;;;;;;;;;;;;91:18;;8:9:-1;5:2;;;30:1;27;20:12;5:2;91:18:1;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.5.0;\n\ncontract VotingSystem{\n    uint public Vote=0;\n}\n",
+  "sourcePath": "/Users/ushanandhini/Desktop/Electronic Voting System/contracts/VotingSystem.sol",
+  "ast": {
+    "absolutePath": "/Users/ushanandhini/Desktop/Electronic Voting System/contracts/VotingSystem.sol",
+    "exportedSymbols": {
+      "VotingSystem": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "VotingSystem",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "Vote",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "91:18:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "91:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "108:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "64:48:1"
+      }
+    ],
+    "src": "39:74:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/ushanandhini/Desktop/Electronic Voting System/contracts/VotingSystem.sol",
+    "exportedSymbols": {
+      "VotingSystem": [
+        38
+      ]
+    },
+    "id": 39,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 38,
+        "linearizedBaseContracts": [
+          38
+        ],
+        "name": "VotingSystem",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "Vote",
+            "nodeType": "VariableDeclaration",
+            "scope": 38,
+            "src": "91:18:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "91:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "108:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 39,
+        "src": "64:48:1"
+      }
+    ],
+    "src": "39:74:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x1C8E2cEBFb0dBaC8e16dc4F366cfdf90a2344107",
+      "transactionHash": "0x2b336cf9acf355e976957cc1d4bec8e92b5d3fe69a3af95f49d9f7904e489b53"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2023-05-12T17:06:51.624Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
