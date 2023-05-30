@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,39 +13,34 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
     
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-  <body>
-    <div class="main">  	
-      <input type="checkbox" id="chk" aria-hidden="true">
-  
+</head>
+<body>
+    <div class="main">
         <div class="signup">
-          <form>
-            <label for="chk" aria-hidden="true">Vote</label>
-            <input type="number" name="id" placeholder="Voter ID" id ="voterId" required="">
-            <button onclick="App.logVoterId(event)">Login</button>
-          </form>
+            <form >
+                <label for="chk" aria-hidden="true">Vote</label>
+                <div class="candidate-list">
+                    <table id="candidateTable" style="margin-left: 70px;">
+                        <thead>
+                            <tr>
+                                <th>Candidate ID</th>
+                                <th>Name</th>
+                                <th>Party</th>
+                            </tr>
+                        </thead>
+                        <tbody id="candidateTableBody">
+                            <!-- Candidates will be dynamically added here -->
+                        </tbody>
+                    </table>
+                </div>
+                <input type="password" id="Candidateid" placeholder="Candidate ID" required="">
+                <button onclick="App.getVote(event)">Vote</button>
+                <h2 style="margin-left: 150px;"><a href="pagethree.html">Next</a></h2>
+            </form>
         </div>
-  
-        <div class="login">
-          <form action="pagefour.html">
-            <label for="chk" aria-hidden="true">Verify</label>
-    
-            <button>Verify Vote</button>
-          </form>
-          <form action="pagefive.html">
-            <button>View Result</button>
-          </form>
-        </div>
+      
     </div>
-  
-
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -58,4 +53,3 @@
 
   </body>
 </html>
-

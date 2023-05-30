@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Oops Project |  Electronic Voting System</title>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Electronic Voting System</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+  <style>
+    p{color: white;}
+  </style>
+</head>
+<body>
+  <div class="result">
+    <label>Vote Result</label>
+    <button onclick="App.displayElectionResult();">View results </button>
+    <div id="resultText" style="color:white;"></div>
+  </div>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as needed -->
+ <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+ <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+ <script src="app.js"></script>
+ <script>
+  window.onload = function() {
+    App.displayElectionResult();
+  };
+</script>
+</body>
+</html>
+<script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+
+</body>
+</html>
